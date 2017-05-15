@@ -1,5 +1,5 @@
 # App debugger
-###A `console.log` with *super powers*!
+### A `console.log` with *super powers*!
 
 Transform your `console.log` into a customizable logs in console debug.
 This not override the default `console.log`, it just add a new way to debug with **css styles**.
