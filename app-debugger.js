@@ -44,4 +44,4 @@ danger (...texts) {
 }
 };
 
-exports default debug;
+export default debug;
