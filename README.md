@@ -1,7 +1,7 @@
 # App debugger
 ### A `console.log` with *super powers*!
 
-Transform your `console.log` into a customizable logs in console debug.
+Transform your `console.log` into a customizable logs.
 This not override the default `console.log`, it just add a new way to debug with **css styles**.
 
 ## How to install
@@ -21,7 +21,7 @@ const debug = require('app-debugger');
 
 ## How to use
 
-The are *4 methods* the you can use:
+The are *4 methods* that you can use:
 ```js
 debug.show
 debug.info
@@ -82,3 +82,15 @@ debug.danger('label message:', fn)();
 See how this example are shown in console
 
 ![demo2](demo2.png "label message")
+
+### How to change the default style
+
+You have totally independence to override the default styles for each method
+
+```js
+debug.styles.default = 'font-size: 14px; color: #795548; text-transform: upercase;';
+debug.styles.info = 'font-size: 14px; background: #b3e5fc; color: white';
+debug.styles.warn = 'font-size: 14px; color: black; background: linear-gradient(#D33106, #571402)';
+debug.styles.danger = 'font-size: 14px; color: #795548; box-shadow: 0 1px black, 0 0 5px rgba(0,0,0,.5)';
+```
+
