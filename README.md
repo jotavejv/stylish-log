@@ -2,7 +2,7 @@
 ### A `console.log` with *super powers*!
 
 Transform your `console.log` into a customizable logs.
-This not override the default `console.log`, it just add a new way to debug with **css styles**.
+This not override the default `console.log`, it just add a new way to debug with **CSS styles**.
 
 ## How to install
 
@@ -51,7 +51,7 @@ debug.danger('danger')();
 
 ![demo1](demo1.png "Basic example, single messages")
 
-You can pass how many values you want to **debug methods**, if you have more than just one, the first *string** message becames a "label message" for your log. Take a look:
+You can pass how many values you want to **debug methods**, if you have more than just one, the first *string* message becomes a *"label message"* for your log. Take a look:
 
 
 ```js
