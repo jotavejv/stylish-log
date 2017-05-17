@@ -88,9 +88,30 @@ See how this example are shown in console
 You have totally independence to override the default styles for each method
 
 ```js
-debug.styles.default = 'font-size: 14px; color: #795548; text-transform: upercase;';
-debug.styles.info = 'font-size: 14px; background: #b3e5fc; color: white';
-debug.styles.warn = 'font-size: 14px; color: black; background: linear-gradient(#D33106, #571402)';
-debug.styles.danger = 'font-size: 14px; color: #795548; box-shadow: 0 1px black, 0 0 5px rgba(0,0,0,.5)';
+debug.styles.default = 'font-size: 14px; color: #795548; text-transform: uppercase;';
+debug.styles.info = 'font-size: 14px; background: #4fc3f7; color: white;';
+debug.styles.warn = 'font-size: 14px; color: black; background: linear-gradient(to right, #ffa726, #ffe0b2)';
+debug.styles.danger = 'font-size: 14px; color: white; text-shadow: 0 1px 0 black, 0 0 8px red;';
 ```
 
+![demo3](demo3.png "user styles")
+
+As you can see even gradients are supported. Se another example with images:
+
+![demo4](demo4.png "bg image");
+
+What about emojis? Yes you can!
+
+![demo5](demo5.png "emoji")
+
+## Important
+You should have noticed about...
+
+## Why using it?
+
+In fact, this module is just a stylish `console.log` which provides a simple way to customize your logs with CSS styles.
+You can take the same effect using the example `console.log(%c My log message, 'color: gray; font-weight: bold;')` this will generate the same result as `debug.show('My log message')()`
+
+---
+
+###### A special thanks to [@UltCombo](https://github.com/UltCombo)
