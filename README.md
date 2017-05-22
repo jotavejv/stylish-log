@@ -112,6 +112,12 @@ You should have noticed about...
 In fact, this module is just a stylish `console.log` which provides a simple way to customize your logs with CSS styles.
 You can take the same effect using the example `console.log(%c My log message, 'color: gray; font-weight: bold;')` this will generate the same result as `debug.show('My log message')()`.
 
+### TODO
+
+- Custom methods
+- Preview improvements
+- Icons
+
 ---
 
 ###### A special thanks to [@UltCombo](https://github.com/UltCombo)
