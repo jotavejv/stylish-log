@@ -1,4 +1,4 @@
-# App debugger
+# App debugger => Work in progress
 ### A `console.log` with *super powers*!
 
 Transform your `console.log` into a customized logs.
