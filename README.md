@@ -103,9 +103,8 @@ debug.styles.default = 'background: url(https://i.imgflip.com/1plo8j.jpg) left b
 
 debug.show('')();
 ```
-
 Assuming that the `padding` is respectively `height` and `width` you can set an image to console.
-In this case the **default style** was overrided and then called `debug.show('')()` passing a **empty string** to initiate the image log.
+In this case the **default style** was overrided and then `debug.show('')()` was called passing a **empty string** to initiate the image log.
 
 ![demo4](demo4.png "bg image");
 
