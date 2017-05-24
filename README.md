@@ -98,6 +98,15 @@ debug.styles.danger = 'font-size: 14px; color: white; text-shadow: 0 1px 0 black
 
 As you can see even gradients are supported. Se another example with images:
 
+```js
+debug.styles.default = 'background: url(https://i.imgflip.com/1plo8j.jpg) left bottom no-repeat; background-size: contain; display: block; padding: 150px 80px';
+
+debug.show('')();
+```
+
+Assuming that the `padding` is respectively `height` and `width` you can set an image to console.
+In this case the **default style** was overrided and then called `debug.show('')()` passing a **empty string** to initiate the image log.
+
 ![demo4](demo4.png "bg image");
 
 What about emojis? Yes you can!
