@@ -1,5 +1,5 @@
 # App debugger => Work in progress
-### A `console.log` with *super powers*!
+### A *stylish* `console.log`
 
 Transform your `console.log` into a customized logs.
 This not override the default `console.log`, it just add a new way to debug with **CSS styles**.
@@ -107,10 +107,12 @@ What about emojis? Yes you can!
 ## Important
 You should have noticed about...
 
-## Why using it?
+## Why?
 
 In fact, this module is just a stylish `console.log` which provides a simple way to customize your logs with CSS styles.
-You can take the same effect using the example `console.log(%c My log message, 'color: gray; font-weight: bold;')` this will generate the same result as `debug.show('My log message')()`.
+You can take the same effect using the example `console.log(%c My log message, 'color: gray; font-weight: bold;')` this will generate the same result as `debug.show('My log message')()`. 
+
+If you prefer a elegant and useful way to style your console, few free to use and enjoy it.
 
 ### TODO
 
