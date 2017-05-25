@@ -96,7 +96,7 @@ debug.styles.danger = 'font-size: 14px; color: white; text-shadow: 0 1px 0 black
 
 ![demo3](demo3.png "user styles")
 
-As you can see even gradients are supported. 
+As you can see even gradients are supported.
 
 Se another example with **images**:
 
@@ -112,6 +112,12 @@ In this case the **default style** was overrided and then `debug.show('')()` was
 
 What about **emojis**? Yes you can!
 
+```js
+debug.styles.default = 'font-size: 50px;';
+
+debug.show('🐴', 'go horse')();
+```
+
 ![demo5](demo5.png "emoji")
 
 ## Important
@@ -120,7 +126,7 @@ You should have noticed about...
 ## Why?
 
 In fact, this module is just a stylish `console.log` which provides a simple way to customize your logs with CSS styles.
-You can take the same effect using the example `console.log(%c My log message, 'color: gray; font-weight: bold;')` this will generate the same result as `debug.show('My log message')()`. 
+You can take the same effect using the example `console.log(%c My log message, 'color: gray; font-weight: bold;')` this will generate the same result as `debug.show('My log message')()`.
 
 If you prefer a elegant and useful way to style your console, few free to use and enjoy it.
 
