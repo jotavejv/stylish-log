@@ -85,7 +85,7 @@ See how this example are shown in console
 
 ### How to change the default style
 
-You have total independence to override the default styles for each method
+You have total freedom to override the default styles for each method
 
 ```js
 debug.styles.default = 'font-size: 14px; color: #795548; text-transform: uppercase;';
@@ -96,7 +96,9 @@ debug.styles.danger = 'font-size: 14px; color: white; text-shadow: 0 1px 0 black
 
 ![demo3](demo3.png "user styles")
 
-As you can see even gradients are supported. Se another example with images:
+As you can see even gradients are supported. 
+
+Se another example with **images**:
 
 ```js
 debug.styles.default = 'background: url(https://i.imgflip.com/1plo8j.jpg) left bottom no-repeat; background-size: contain; display: block; padding: 150px 80px';
@@ -104,11 +106,11 @@ debug.styles.default = 'background: url(https://i.imgflip.com/1plo8j.jpg) left b
 debug.show('')();
 ```
 Assuming that the `padding` is respectively `height` and `width` you can set an image to console.
-In this case the **default style** was overrided and then `debug.show('')()` was called passing a **empty string** to initiate the image log.
+In this case the **default style** was overrided and then `debug.show('')()` was called passing an **empty string** to initiate the image log.
 
 ![demo4](demo4.png "bg image");
 
-What about emojis? Yes you can!
+What about **emojis**? Yes you can!
 
 ![demo5](demo5.png "emoji")
 
