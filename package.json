@@ -15,7 +15,8 @@
     "log",
     "debug",
     "console",
-    "logg"
+    "logg",
+    "style"
   ],
   "author": "jotavejv",
   "license": "MIT",

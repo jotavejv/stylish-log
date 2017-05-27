@@ -1,5 +1,5 @@
 /*!
- * Logg
+ * Stylish-log
  * @copyright João Victor Santos | jotavejv <contatos.jv@hotmail.com>
  * @license MIT
  */
@@ -28,7 +28,7 @@ function print(style, texts) {
     return log.bind(...bindArgs);
 }
 
-let logg = {
+let stylishLog = {
     styles,
     show (...texts) {
     return print(styles.default, texts);
@@ -44,4 +44,4 @@ danger (...texts) {
 }
 };
 
-export default logg;
+export default stylishLog;
