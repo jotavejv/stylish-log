@@ -1,4 +1,4 @@
-# Logg => Work in progress
+# stylish-log => Work in progress
 ### A *stylish* `console.log`
 
 Transform your `console.log` into a customized logs.
@@ -7,21 +7,21 @@ This not override the default `console.log`, it just add a new way to debug with
 ## How to install
 
 ```js
-npm install logg
+npm install stylish-log
 ```
 
 Then you call it with `import` or `require`:
 ```js
-import log from 'logg'
+import log from 'stylish-log'
 
 //OR
 
-const log = require('logg');
+const log = require('stylish-log');
 ```
 
 ## How to use
 
-There are *4 logg methods* that you can use:
+There are *4 stylish-log methods* that you can use:
 
 - log.show
 - log.info
@@ -51,7 +51,7 @@ log.danger('danger')();
 
 ![demo1](demo1.png "Basic example, single messages")
 
-You can pass how many values you want to **logg methods**, if you have more than just one, the first *string* message becomes a *"label message"* for your log. Take a look:
+You can pass how many values you want to **stylish-log methods**, if you have more than just one, the first *string* message becomes a *"label message"* for your log. Take a look:
 
 
 ```js
@@ -71,7 +71,7 @@ const fn = function(){
   console.log('A function');
 }
 
-//call logg for each value passing a custom message label
+//call stylish-log for each value passing a custom message label
 
 log.show('label message:', arrObj)();
 log.info('label message:', arr)();
