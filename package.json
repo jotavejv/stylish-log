@@ -1,14 +1,14 @@
 {
-  "name": "logg",
+  "name": "stylish-log",
   "version": "1.0.0",
   "description": "A beautiful way to see your web console logs",
-  "main": "logg.js",
+  "main": "stylish-log.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jotavejv/logg.git"
+    "url": "git+https://github.com/jotavejv/stylish-log.git"
   },
   "keywords": [
     "console.log",
@@ -20,7 +20,7 @@
   "author": "jotavejv",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jotavejv/logg/issues"
+    "url": "https://github.com/jotavejv/stylish-log/issues"
   },
-  "homepage": "https://github.com/jotavejv/logg#readme"
+  "homepage": "https://github.com/jotavejv/stylish-log#readme"
 }
