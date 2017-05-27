@@ -1,0 +1,26 @@
+{
+  "name": "logg",
+  "version": "1.0.0",
+  "description": "A beautiful way to see your web console logs",
+  "main": "logg.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jotavejv/logg.git"
+  },
+  "keywords": [
+    "console.log",
+    "log",
+    "debug",
+    "console",
+    "logg"
+  ],
+  "author": "jotavejv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jotavejv/logg/issues"
+  },
+  "homepage": "https://github.com/jotavejv/logg#readme"
+}
