@@ -1,5 +1,5 @@
 /*!
- * App Debugger
+ * Logg
  * @copyright João Victor Santos | jotavejv <contatos.jv@hotmail.com>
  * @license MIT
  */
@@ -28,7 +28,7 @@ function print(style, texts) {
     return log.bind(...bindArgs);
 }
 
-let debug = {
+let logg = {
     styles,
     show (...texts) {
     return print(styles.default, texts);
@@ -44,4 +44,4 @@ danger (...texts) {
 }
 };
 
-export default debug;
+export default logg;
