@@ -98,7 +98,7 @@ log.styles.danger = 'font-size: 14px; color: white; text-shadow: 0 1px 0 black, 
 
 As you can see even gradients are supported.
 
-Se another example with **images**:
+Another example with **images**:
 
 ```js
 log.styles.default = 'background: url(https://i.imgflip.com/1plo8j.jpg) left bottom no-repeat; background-size: contain; display: block; padding: 150px 80px';
