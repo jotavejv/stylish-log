@@ -44,4 +44,4 @@ danger (...texts) {
 }
 };
 
-export default stylishLog;
+module.exports = stylishLog;
