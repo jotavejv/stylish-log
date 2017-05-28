@@ -1,4 +1,4 @@
-# stylish-log => Work in progress
+﻿# stylish-log => Work in progress
 ### A *stylish* `console.log`
 
 Transform your `console.log` into a customized logs.
@@ -49,7 +49,7 @@ log.warn('warn')();
 log.danger('danger')();
 ```
 
-![demo1](demo1.png "Basic example, single messages")
+![demo1](demos/demo1.png "Basic example, single messages")
 
 You can pass how many values you want to **stylish-log methods**, if you have more than just one, the first *string* message becomes a *"label message"* for your log. Take a look:
 
@@ -81,7 +81,7 @@ log.danger('label message:', fn)();
 
 See how this example are shown in console
 
-![demo2](demo2.png "label message")
+![demo2](demos/demo2.png "label message")
 
 ### How to change the default style
 
@@ -94,7 +94,7 @@ log.styles.warn = 'font-size: 14px; color: black; background: linear-gradient(to
 log.styles.danger = 'font-size: 14px; color: white; text-shadow: 0 1px 0 black, 0 0 8px red;';
 ```
 
-![demo3](demo3.png "user styles")
+![demo3](demos/demo3.png "user styles")
 
 As you can see even gradients are supported.
 
@@ -108,7 +108,7 @@ log.show('')();
 Assuming that the `padding` is respectively `height` and `width` you can set an image to console.
 In this case the **default style** was overrided and then `log.show('')()` was called passing an **empty string** to initiate the image log.
 
-![demo4](demo4.png "bg image");
+![demo4](demos/demo4.png "bg image");
 
 What about **emojis**? Yes you can!
 
