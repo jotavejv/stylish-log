@@ -14,7 +14,7 @@ const styles = {
     danger: 'color: lightcoral; font-weight: bold;'
 }
 
-const log = console.log;
+const logg = console.log;
 
 function print(style, texts) {
     let bindArgs = [console];
@@ -25,10 +25,10 @@ function print(style, texts) {
             bindArgs.push(text);
         }
     }
-    return log.bind(...bindArgs);
+    return logg.bind(...bindArgs);
 }
 
-let stylishLog = {
+let log = {
     styles,
     show (...texts) {
     return print(styles.default, texts);
@@ -45,3 +45,4 @@ danger (...texts) {
 };
 
 module.exports = stylishLog;
+
