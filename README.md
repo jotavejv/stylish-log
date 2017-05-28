@@ -1,4 +1,4 @@
-﻿# stylish-log => Work in progress
+# stylish-log => Work in progress
 ### A *stylish* `console.log`
 
 Transform your `console.log` into a customized logs.
@@ -21,7 +21,7 @@ const log = require('stylish-log');
 
 ## How to use
 
-There are *4 stylish-log methods* that you can use:
+There are **4 stylish-log methods** that you can use:
 
 - log.show
 - log.info
@@ -106,7 +106,7 @@ log.styles.default = 'background: url(https://i.imgflip.com/1plo8j.jpg) left bot
 log.show('')();
 ```
 Assuming that the `padding` is respectively `height` and `width` you can set an image to console.
-In this case the **default style** was overrided and then `log.show('')()` was called passing an **empty string** to initiate the image log.
+In this case the **default style** was overrided and then `log.show('')()` was called, passing an **empty string** to initiate the *image* log.
 
 ![demo4](demos/demo4.png "bg image");
 
@@ -118,10 +118,23 @@ log.styles.default = 'font-size: 50px;';
 log.show('🐴', 'go horse')();
 ```
 
-![demo5](demo5.png "emoji")
+![demo5](demos/demo5.png "emoji")
 
 ## Important
-You should have noticed about...
+You should have noticed about the double **()()** call from the methods in the examples. There was a initial version (not published) that you could just call the methods with single **()**, the reason of the double **()()** are the stack line log in the console. 
+You can see the difference between below:
+
+![stack1](demos/stack1.png "stack1")
+![stack2](demos/stack1-2.png "stack1-2")
+```js
+log.show();
+```
+
+![stack3](demos/stack2-2.png "stack2")
+![stack4](demos/stack2.png "stack2-2")
+```js
+log.show()();
+```
 
 ## Why?
 
