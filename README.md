@@ -120,7 +120,7 @@ log.show('🐴', 'go horse')();
 ![demo5](demos/demo5.png "emoji")
 
 ## Important
-You should have noticed about the double **()()** call from the methods in the examples. There was a initial version (not published) that you could just call the methods with single **()**, the reason of the double **()()** are the stack line log in the console. 
+You should have noticed about the **double ()()** call from the methods in the examples. There was a initial version (*not published*) that you could just call the methods with **single ()**, the reason of the double **()()** are the *stack line log in the console*. 
 You can see the difference between below:
 
 ```js
