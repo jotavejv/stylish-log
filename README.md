@@ -1,4 +1,4 @@
-# stylish-log => Work in progress
+# stylish-log
 ### A *stylish* `console.log`
 
 Transform your `console.log` into a customized logs.
@@ -117,24 +117,24 @@ log.styles.default = 'font-size: 50px;';
 
 log.show('🐴', 'go horse')();
 ```
-
 ![demo5](demos/demo5.png "emoji")
 
 ## Important
 You should have noticed about the double **()()** call from the methods in the examples. There was a initial version (not published) that you could just call the methods with single **()**, the reason of the double **()()** are the stack line log in the console. 
 You can see the difference between below:
 
-![stack1](demos/stack1.png "stack1")
+```js
+log.show('testing single () call');
+```
+<!-- ![stack1](demos/stack1.png "stack1") -->
 ![stack2](demos/stack1-2.png "stack1-2")
-```js
-log.show();
-```
 
-![stack3](demos/stack2-2.png "stack2")
-![stack4](demos/stack2.png "stack2-2")
 ```js
-log.show()();
+log.show('testing double ()() call')();
 ```
+<!-- ![stack3](demos/stack2-2.png "stack2") -->
+![stack4](demos/stack2.png "stack2-2")
+
 
 ## Why?
 
