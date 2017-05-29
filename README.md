@@ -120,7 +120,7 @@ log.show('🐴', 'go horse')();
 ![demo5](demos/demo5.png "emoji")
 
 ## Important
-You should have noticed about the **double ()()** call from the methods in the examples. There was a initial version (*not published*) that you could just call the methods with **single ()**, the reason of the double **()()** are the *stack line log in the console*. 
+You should have noticed about the **double ()()** call from the methods in the examples. There was an initial version (*not published*) that you could just call the methods with **single ()**, the reason of the double **()()** are the *stack trace* in the console. 
 You can see the difference between below:
 
 ```js
@@ -141,7 +141,7 @@ log.show('testing double ()() call')();
 In fact, this module is just a stylish `console.log` which provides a simple way to customize your logs with CSS styles.
 You can take the same effect using the example `console.log(%c My log message, 'color: gray; font-weight: bold;')` this will generate the same result as `log.show('My log message')()`.
 
-If you prefer a elegant and useful way to style your console, few free to use and enjoy it.
+If you prefer an elegant and useful way to style your console, feel free to use and enjoy it.
 
 ### TODO
 
