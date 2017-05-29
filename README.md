@@ -2,7 +2,7 @@
 ### A *stylish* `console.log`
 
 Transform your `console.log` into a customized logs.
-This not override the default `console.log`, it just add a new way to debug with **CSS styles**.
+This does not override the default `console.log`, it just add a new way to debug with **CSS styles**.
 
 ## How to install
 
